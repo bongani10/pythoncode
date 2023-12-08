@@ -1,0 +1,58 @@
+how to open a terminal >> ctrl + alt + T
+
+Linux commands : 
+$ pwd(present working directory) >> current location
+
+$ cd / >> root directory
+
+$ ls  >> long list(directory + files)
+
+$ ls / >> display content of a root folder
+
+$ ls -a >> list all files including hiddens
+
+$ ls ~ home directory
+
+ 
+$ ls ../(one folder step back)
+
+$ ls -l >> listing files in long format(drwxr-xr-x = directory,read,write,execute,read(rights of the user))xr>> rights of the group
+
+$ ls -al >> long list + hidden files
+
+$ ls -lS >> sort list by biggest size
+
+$ ls Documents/*.html   >> list all files that ends with the extension .html
+
+$ ls Documents/*.*   >> list all the files with all the extensions
+
+$ls man    full description of ls
+
+++++++++++++++++++++++++++++++++++++cd command+++++++++++++++++++++++++++++++++
+how to navigate to a folder name with a space:
+cd My \Name(folder name) or cd "My Name" or cd 'My Name'
+
++++++++++++++++++++++++++++++++++++++ cat(echo) command -- display content of the file ++++++++++++++++++
+$ cat
+hello world
+hello world
+echo bongani
+echo bongani
+how to exit cat >>>  ctrl + d
+
+$cat file1.txt  >>> display content of the file
+$cat -b file1.txt     >>> display content of d file + line numbering excluding blanks
+$cat - n file.txt   >> display content of d file + line numbering including blank lines
+$cat - file.txt squueze all blanks lines into one blank line
+$cat E file.txt add dollar symbol at the end of each line
+
+
+redirect output:
+
+$cat > test.txt    >>> create and display the content in test.txt
+ctrl + d to exit cat
+
+how to append content
+$ cat >> test.txt
+content goes here 
+++++++++++++++++++++++++++++
